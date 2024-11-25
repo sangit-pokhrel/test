@@ -1,0 +1,13 @@
+.journey {
+  background-image: url("/public/media/home.jpg");
+  height: 110vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* padding-top: 5em; */
+  margin-top: -5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 0;
+}
