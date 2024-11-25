@@ -30,7 +30,7 @@ const JourneyComponent = () => {
 
   // Control scale and opacity for the Services section
   const scale = useTransform(scrollYProgress, [0, 0.5], [0.85, 1]);
-  const headings = ["Your", "Journey to", "Greatness Starts", "Here."];
+  const headings = ["Our", "Journey to", "Greatness Starts", "Now."];
   const cardVariants = {
     hidden: { opacity: 0, x: -20 },
     visible: { opacity: 1, x: 0 },
